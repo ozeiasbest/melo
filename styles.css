@@ -1,0 +1,68 @@
+.picture__input {
+  display: none;
+}
+
+
+
+.picture__input {
+  width: 12px;
+  height: 12px;
+
+
+
+
+  :focus {
+    border-color: dodgerBlue;
+    box-shadow: 0 0 8px 0 dodgerBlue;
+  }
+
+
+  background: #ddd;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #aaa;
+  border: 2px dashed currentcolor;
+  cursor: pointer;
+  font-family: sans-serif;
+  transition: color 300ms ease-in-out,
+  background 300ms ease-in-out;
+  outline: none;
+  overflow: hidden;
+}
+}
+
+body {
+  background-color: powderorange;
+}
+
+
+
+#name {
+  width: 80%;
+  height: 25px;
+  margin: 1 auto;
+  border: auto;
+  border-radius: 12px;
+
+}
+
+body {
+  background-color: #da771b;
+  background-image: linear-gradient(orange, red);
+}
+
+img {
+  border-radius: 9px;
+}
+
+@font-face {
+            font-family: "ubuntu";
+            src: url(ubuntu.ttf)
+        }
+
+        h1 {
+            font-family: ubuntu;
+        }
+
+
